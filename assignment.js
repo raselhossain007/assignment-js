@@ -36,17 +36,17 @@ function brickCalculator(building){
     if(building >= 1 && building <= 10){
         feet = 15;
         var calculate = building * feet * brick;
-        return calculate+" bricks is needed";
+        return calculate + " bricks is needed ";
     }
     else if(building >= 11 && building <= 20){
         feet = 12;
         var calculate =  building * feet * brick;
-        return calculate+" bricks is needed";
+        return calculate + " bricks is needed ";
     }
     else if(building > 20){
         feet = 10;
         var calculate =  building * feet * brick;
-        return calculate+" bricks is needed";
+        return calculate + " bricks is needed ";
     }
 }
 var floor = brickCalculator(10);
