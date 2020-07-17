@@ -65,7 +65,7 @@ function tinyFriend(name){
             prevName = currentName;
         }
 	}
-	return prevName;
+	return prevName + "'s length is smallest";
 }
 var arrayName = tinyFriend(['Rasel','Rayhan','Alomgir','Raju']);
 console.log(arrayName);
